@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cafee6c-2ca7-4ee8-980b-013a1b2894e5">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ИспользоватьСклады</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>AccumulationRegister.ТоварыНаСкладах</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>AccumulationRegister.ЗаказыКлиентов</content>
+  <content>AccumulationRegister.УчетЗатрат</content>
+  <content>Constant.ЗапретПроведенияПриОтрицательныхОстатках</content>
+  <content>FunctionalOption.ЗапретПроведенияПриОтрицательныхОстатках</content>
+  <content>FilterCriterion.СвязанныеДокументы</content>
+  <content>DataProcessor.Запросник2_0</content>
+  <content>Constant.API_KEY_newsapi</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

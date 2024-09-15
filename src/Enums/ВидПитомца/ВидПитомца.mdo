@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73a7e64f-1208-4ad8-a578-562f9aa1181e">
+  <producedTypes>
+    <refType typeId="01edd5a3-517b-4872-a84a-5db4cee5a857" valueTypeId="edbc4721-4502-4320-8681-29c173f9d8aa"/>
+    <listType typeId="832ec4b2-de05-47cd-844d-6a19a803b084" valueTypeId="be2d08fe-c9ed-4127-b104-3b9071b5ab48"/>
+    <managerType typeId="8a441175-01a2-4775-86ee-a831f7eb70af" valueTypeId="1bd20f29-02ae-4ab9-89f7-1d6e6106e892"/>
+  </producedTypes>
+  <name>ВидПитомца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид питомца</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="916c68f5-ff40-469a-a67d-78c53c5243e3">
+    <name>Кошка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кошка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c376aea-0088-42a3-a402-9dd4b43bf62a">
+    <name>Собака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собака</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

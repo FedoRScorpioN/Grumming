@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e640d76-02bf-4eb7-85ef-b134e03ccd49">
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Деньги</picture>
+  </picture>
+  <content>Enum.ВидыОперацийПоступленияДенег</content>
+  <content>Enum.ВидыОперацийРасходаДенег</content>
+  <content>Catalog.Кассы</content>
+  <content>Document.ПоступленияДенежныхСредств</content>
+  <content>Document.РасходДенежныхСредств</content>
+  <content>AccumulationRegister.ДенежныеСредства</content>
+  <content>Enum.ТипыДенежныхСредств</content>
+  <content>AccumulationRegister.БезналичнаяОплата</content>
+  <content>Catalog.Банки</content>
+  <content>Catalog.ЭквайринговыеТерминалы</content>
+  <content>Report.ДвижениеНаличныхДенег</content>
+  <content>Report.ОтчетПоБезналичнойОплате</content>
+  <content>Enum.ВидыОперацийПоступленияНаРасчетныйСчет</content>
+  <content>Enum.ВидыОперацийСписанияСРасчетногоСчета</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Document.ПоступлениеНаРасчетныйСчет</content>
+  <content>Document.СписаниеСРасчетногоСчета</content>
+  <content>DocumentJournal.ДокументыПоКассе</content>
+  <content>DocumentJournal.ДокументыПоБанку</content>
+  <content>Report.ОтчетПоКонтролюОстатковДенежныхСредств</content>
+</mdclass:Subsystem>

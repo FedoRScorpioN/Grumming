@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef243a95-5ad6-433a-8c65-2f2c3352c573">
+  <producedTypes>
+    <objectType typeId="07dc48d5-bf8d-4bcb-9ef4-7f76b3879f74" valueTypeId="a371c860-4f73-4ee3-a97f-e6e5ede29204"/>
+    <managerType typeId="88d88bea-d226-4384-8a2a-2f4d8e9a37c9" valueTypeId="f20fa511-6eae-4eb1-b68e-3ddca320ee7d"/>
+  </producedTypes>
+  <name>Запросник2_0</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросник 2.0</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Запросник2_0.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.Запросник2_0.Form.ФормаУпр</auxiliaryForm>
+  <attributes uuid="c6eabbd9-f790-4f4f-ba13-d53903cd1b2e">
+    <name>ПоказатьУправлениеВерсиями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать управление версиями</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="e3703df2-6d6d-422c-8af7-d8b4ce845bfc">
+    <producedTypes>
+      <objectType typeId="720b3450-29bb-4274-b4a4-0f919edddaeb" valueTypeId="b1ca1e66-5eab-4ae8-a59a-ee531fe6c507"/>
+      <rowType typeId="4a9bd311-73dc-4254-b6b9-67b08091cdb5" valueTypeId="7dce13a7-ef5b-4411-adc3-637705989dc0"/>
+    </producedTypes>
+    <name>РезультатЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат запроса</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <forms uuid="f2cd776c-44ba-41af-854d-2ebc9b33906c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b58b4ade-1829-4878-9c4f-1a8b3d6bd548">
+    <name>ВыборСтрокиДереваЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор строки дерева запросов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4abbfaeb-fbbd-4f65-b8d3-3eb3f68eeb7b">
+    <name>ТекстЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b1e51d12-990a-4f60-a4db-2436d7787339">
+    <name>ОтображениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображение данных</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2b3989a-a4ef-43c7-981e-fe803e62621a">
+    <name>ПараметрМоментВремениГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр момент времени граница</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93708640-73e9-4e08-b9fa-591f66e1448a">
+    <name>ПараметрСписокЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр список значений</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc94f172-5210-40da-b260-dbcde7ad75ea">
+    <name>ТаблицаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица значений</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c457e90-f3f4-4182-afa1-e0e0ef634a39">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b3ef7a1-a102-40fc-84c3-8ee627bfd385">
+    <name>ВыполнениеАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение алгоритма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb2fa340-cba6-4d1a-b6a5-6121cc73b820">
+    <name>ВариантыЗапросаДляБуфера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты запроса для буфера</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b5e9c42d-1152-487b-a348-750480c3e24a">
+    <name>Справка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93cbc5fe-04f5-4b28-afc2-546d3cf7f25a">
+    <name>ВерсииЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии запроса</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7bb76c59-6a9e-49c1-b3ef-460e975d8ed1">
+    <name>ТабличныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный документ</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="878311ee-3ce9-4707-899a-c160f64d0c61">
+    <name>ФормаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="221dc7e1-aa65-4e7f-b2d6-dce9dcf56248">
+    <name>ПараметрыЗапросаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры запроса упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3ea68521-f8d9-4872-a583-4714f198c7f9">
+    <name>ПараметрМоментВремениГраницаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр момент времени граница упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66b56fe1-9c79-4ea5-a4d3-bf2505fbd9a6">
+    <name>СписокЗначенийУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список значений упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9ff7e9c2-fa94-46d0-b0a6-7310b4ff06fd">
+    <name>ФормаВыбораВТУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора ВТУпр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0da0e8d7-cf3c-48ff-979c-d2250c9491de">
+    <name>ПоследниеФайлыЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последние файлы запросов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b0afe7c-d0b5-41b0-9a1a-464c87e3f2ce">
+    <name>ВыборСтрокиДереваЗапросовУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор строки дерева запросов упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5d4e0f80-1ed4-4480-a26d-16b4feb46d88">
+    <name>ФормаТаблицыЗначенийУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма таблицы значений упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2efaffa0-42d4-4327-a39f-74ba2a88c820">
+    <name>ФормаВыборкиУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выборки упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="746edf41-b902-428a-99fe-f1199d0e7d2b">
+    <name>ВыполнениеАлгоритмаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение алгоритма упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71e0f9a3-0ae1-4e7a-ac75-831c36dc9574">
+    <name>ВерсииЗапросаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии запроса упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e882fd95-df19-46fd-bb73-4b4e36d293e5">
+    <name>РезультатУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="68198522-8750-412d-9266-43c4d3173ee7">
+    <name>ФормаОтладкиВМодулеУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отладки в модуле упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b65e0c89-aaca-457d-ad5c-4b1a7284ed07">
+    <name>ИсторияВерсий</name>
+    <synonym>
+      <key>ru</key>
+      <value>История версий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42ca9341-7f27-441b-bc67-d1e8b91b055e">
+    <name>НастройкаТехнологическогоЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка технологического журнала</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a825c327-f63e-4414-a25a-34a8c32ada3e">
+    <name>ВариантыЗапросаДляБуфераУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты запроса для буфера упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82c8aa68-3fe2-408e-b5fd-49de21d3e497">
+    <name>ВыборТипаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор типа упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee79c02b-2a13-4ee4-ae75-1c5bfd237cbc">
+    <name>Раскраска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раскраска</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="21dc342d-c5e1-464a-aa00-ab78e3973a1a">
+    <name>Справка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="05caea92-f654-4d81-8ce0-05556d01be03">
+    <name>Версии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="a8ff866c-5ed2-4634-acc5-90be356bf93d">
+    <name>ОтладкаЗапросаИзМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отладка запроса из модуля</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c8087c3c-b7ae-48fa-9a20-5cf1ad2b636c">
+    <name>ВерсииУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f0243c70-d958-457a-b14e-e1eca6e38208">
+    <name>КонфигФайловойВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфиг файловой версии</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ff5843a2-70a1-4408-8317-f54cbf4e08b3">
+    <name>КонфигКлиентСервернойВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфиг клиент серверной версии</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="af6d37d2-d113-474f-b8aa-6fbb495fb9a0">
+    <name>ХукКлавы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хук клавы</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="4869466a-3514-4d99-b1c9-a5cd55aa845b">
+    <name>HTMLАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTMLАлгоритма</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

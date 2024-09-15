@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ab45ebe-3f7b-4ff9-91a6-b5e70ee4dccf">
+  <producedTypes>
+    <selectionType typeId="304272eb-bb84-4727-8bf7-db604b368fb5" valueTypeId="92dc70fb-a20b-45d6-8d9e-1f663f12a0c0"/>
+    <listType typeId="63c7291c-9e88-4a30-b2e9-9fdeb504b75e" valueTypeId="84c4e3d0-eb41-4206-b348-9f80fa795846"/>
+    <managerType typeId="b053a783-89b3-44e5-88a7-277fde82629c" valueTypeId="97038443-bc8a-4c1c-9618-e6e90cc3cbc8"/>
+    <recordSetType typeId="543b009b-201f-43dd-bcb5-0543df4c388b" valueTypeId="abe5b2d9-356d-46b1-8aeb-2cf966e4bf30"/>
+    <recordKeyType typeId="8eb18ae0-fb39-44e3-867d-ae99befda19b" valueTypeId="c5948dc2-34e9-49ce-b86f-f32159b8b5d0"/>
+    <recordType typeId="715803ff-99a3-4431-8786-b10caab4e97e" valueTypeId="4603e4f7-258d-4a3f-83fc-26910b88987b"/>
+  </producedTypes>
+  <name>УчетЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0946a8aa-6b8b-48ac-bbb7-f088c4039fc8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="72366408-7f0a-4030-81b0-c7916dd20207">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

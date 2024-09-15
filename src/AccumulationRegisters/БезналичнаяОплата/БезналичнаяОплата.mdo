@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c7e8430-59c4-4a83-b26d-8ec4bd0a6518">
+  <producedTypes>
+    <selectionType typeId="c75ea4ea-367d-48a8-ae80-6723bd875201" valueTypeId="b1e6bf3c-1f74-4b36-bf41-b6e3f365a982"/>
+    <listType typeId="1afc723b-787a-4dcd-8cfb-7f3338b2aa15" valueTypeId="e83292a9-6f41-4c15-b308-06af34637a80"/>
+    <managerType typeId="96188d42-9b00-4741-b236-95e37a5028e5" valueTypeId="e3f947df-8a7c-41cc-b93f-31470e89f12e"/>
+    <recordSetType typeId="ecfc5a95-c267-45f9-a4d7-c58ec3dbe188" valueTypeId="1df523a9-9fd1-4d11-a811-3c00dbc7cda3"/>
+    <recordKeyType typeId="920b47d2-a6ef-4beb-a71f-a5acbf95a380" valueTypeId="10de87fc-61cf-4bc6-bec9-61606f290167"/>
+    <recordType typeId="c5bd9f22-0d34-40bb-917f-44bd5c449e70" valueTypeId="784e8bd3-cc69-4dbc-b4a9-1b5c45942a8b"/>
+  </producedTypes>
+  <name>БезналичнаяОплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безналичная оплата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ab30cfb7-4685-4123-a963-7585a6bbf77f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="61f615dc-ff61-4938-8046-3097063ca4ea">
+    <name>ЭквайринговыйТерминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эквайринговый терминал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭквайринговыеТерминалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

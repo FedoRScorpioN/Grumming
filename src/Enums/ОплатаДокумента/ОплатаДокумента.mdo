@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f16d561a-7c1d-41d4-952f-ba9c613787a2">
+  <producedTypes>
+    <refType typeId="73552ab0-fa89-4177-879a-799ed05ad223" valueTypeId="7714230c-7348-4d72-9a78-04a13ed14fd9"/>
+    <listType typeId="9b184d09-bdc4-4b80-9288-015cb7e0590f" valueTypeId="381c2545-8ecc-4a72-9af2-e0b1bfa1793d"/>
+    <managerType typeId="5144cadf-a0e4-426c-8808-d9878678bf63" valueTypeId="41b721e4-c697-4bfa-954a-518ddb13791c"/>
+  </producedTypes>
+  <name>ОплатаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата документа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9de70bea-7ca8-4244-81df-07b32df18be1">
+    <name>НеОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оплачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db242c6e-fa2e-4176-b639-7017881ef848">
+    <name>ПолностьюОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полностью оплачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20668c33-2d5e-4514-8110-e5a62bfe79ce">
+    <name>ЧастичноОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично оплачен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

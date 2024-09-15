@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29686fd2-bc95-402a-a77d-25c82dec1d52">
+  <producedTypes>
+    <managerType typeId="ff272e0c-dc17-4038-b4ef-7f9a53586f77" valueTypeId="0cf149e1-2e4f-4af4-b303-ea7e4e99ad2c"/>
+    <valueManagerType typeId="9f85ce36-a350-4b56-a9e1-e91a3ff37a8d" valueTypeId="cc74d4a1-b1a4-4c67-a02a-9903439d5f6a"/>
+    <valueKeyType typeId="5c13e4f9-0192-45ea-98c4-531fc3712695" valueTypeId="ac1716d1-f971-4125-bd9a-1fc81e1a4e8c"/>
+  </producedTypes>
+  <name>ИспользоватьСклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать склады</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

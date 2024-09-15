@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aea2a346-a183-421e-8996-97a86a11ce86">
+  <producedTypes>
+    <objectType typeId="a1cdc671-d17d-46cf-8f92-88c320511622" valueTypeId="f84a3a37-25e0-41a0-82aa-e48f3a086c98"/>
+    <managerType typeId="5dc17b52-fd08-4709-b800-07004db3f0c8" valueTypeId="f6e2a586-2370-422e-99f2-008e9beb8a80"/>
+  </producedTypes>
+  <name>ОтчетПоБезналичнойОплате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по безналичной оплате</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоБезналичнойОплате.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6ca38d47-e274-45b8-9bec-a5844df0cee1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

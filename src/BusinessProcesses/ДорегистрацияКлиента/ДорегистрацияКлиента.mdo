@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28c1b260-f699-4cf4-9fd2-9cd6db64cebe">
+  <producedTypes>
+    <objectType typeId="5833e6b2-1cf3-4ca1-8b9e-e37555669694" valueTypeId="e41ca1b2-13fe-44b3-a19a-8f6b7765fb10"/>
+    <refType typeId="9abbc2e5-649a-409e-b425-ef0be9f95830" valueTypeId="7319176a-50f3-4c80-a969-e98ad787c941"/>
+    <selectionType typeId="90f611c1-003f-4615-9042-b1285b6f3c3b" valueTypeId="0011a996-0e40-4eba-9b1c-bde06dc89072"/>
+    <listType typeId="63d31cd6-7e3d-496c-9aca-65ae340d1d66" valueTypeId="56e80f51-5fb1-47c9-b5f3-abc5d3334162"/>
+    <managerType typeId="6d806146-7306-42bd-b900-880c9c03a490" valueTypeId="124d192c-5db8-4db7-98f7-393bcbd23b3f"/>
+    <routePointRef typeId="9958407b-b268-4081-841c-38fefc0ccc0c" valueTypeId="3ff57339-e8b8-4d47-b134-b51fb72e9d9d"/>
+  </producedTypes>
+  <name>ДорегистрацияКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дорегистрация клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ДорегистрацияКлиента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.ДорегистрацияКлиента.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаИсполнителя</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="1168fe17-c531-4f4c-9e81-5ac3178a86c4">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="828aabac-6132-4fda-b06f-6885ccc54d0e">
+    <name>РегистрацияПодтверждена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация подтверждена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c698b667-cfc3-4b56-be30-903cb7e4041b">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="94146015-5da1-47b2-9366-688c88999ffd">
+    <name>ФормаКартыМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма карты маршрута</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

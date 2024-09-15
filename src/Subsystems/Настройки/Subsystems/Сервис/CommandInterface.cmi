@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>AccumulationRegister.ЗаказыКлиентов.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ТоварыНаСкладах.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УчетнаяПолитика.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.УчетЗатрат.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>Constant.ИспользоватьСклады.StandardCommand.Open</commands>
+      <commands>Constant.ЗапретПроведенияПриОтрицательныхОстатках.StandardCommand.Open</commands>
+      <commands>DataProcessor.Запросник2_0.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

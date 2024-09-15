@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1309cd94-b7b0-4a26-964b-bd3a082e6891">
+  <producedTypes>
+    <objectType typeId="b2b43440-4b5f-45f6-83ed-ea36e74ab583" valueTypeId="58c2579b-d874-4faf-b77b-fc47bd157d41"/>
+    <refType typeId="1ba89925-8ab2-4cbd-852e-08a4384d0dda" valueTypeId="de153769-8a96-4b0f-a665-4ff734ae0da7"/>
+    <selectionType typeId="95fe2a0a-e007-4220-813e-6e4e48bbee63" valueTypeId="fcf06ba0-2c59-4554-a499-80f260d9baa1"/>
+    <listType typeId="12feb5f5-b988-4d8e-98d8-02282a7914c6" valueTypeId="00ea75bb-a859-4183-b2fe-d869acd4d840"/>
+    <managerType typeId="22f83772-673f-41fb-9953-03f491b0297c" valueTypeId="7e561f85-6cf8-489d-b04d-5f0cbc465183"/>
+  </producedTypes>
+  <name>ЭквайринговыеТерминалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эквайринговые терминалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЭквайринговыеТерминалы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЭквайринговыеТерминалы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2f049f03-e83a-46b9-bd27-f4784e22b66f">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d14f71b-a4e0-4b90-b70b-d5a48c5d78ec">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

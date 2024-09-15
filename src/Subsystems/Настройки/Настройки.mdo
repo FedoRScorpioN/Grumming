@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0da93f4-6393-4a70-bfe5-06b2b59b85d3">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Настройки</picture>
+  </picture>
+  <content>Document.УстановкаУчетнойПолитикиОрганизации</content>
+  <content>Constant.НачалоРабочегоДня</content>
+  <content>Constant.ОкончаниеРабочегоДня</content>
+  <content>Catalog.РолиИсполнителей</content>
+  <content>BusinessProcess.ДорегистрацияКлиента</content>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>InformationRegister.РегистрАдресации</content>
+  <content>Catalog.Пользователи</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Сервис</subsystems>
+</mdclass:Subsystem>

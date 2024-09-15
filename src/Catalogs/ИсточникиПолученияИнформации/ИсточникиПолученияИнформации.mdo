@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d92cd06-4658-4001-8843-6b0b0608ed97">
+  <producedTypes>
+    <objectType typeId="8adc333e-9f3c-463e-b2d7-dd4c7830b91f" valueTypeId="6c94c749-f16a-4a00-9838-7daae3179d88"/>
+    <refType typeId="c959f73c-6569-4ee0-a423-8d1aacb1bc6c" valueTypeId="96d3fc4b-5d4b-4b22-956b-d4cc1cd0f82c"/>
+    <selectionType typeId="cd39b269-0230-4183-ab33-7e320e999a92" valueTypeId="0ee71ee6-54fd-4fd2-b56f-b9baa6f2bba5"/>
+    <listType typeId="03fa025f-76a9-427f-bae2-94887e219e4e" valueTypeId="7246415f-ac61-4bad-a070-e667c24e3cec"/>
+    <managerType typeId="c3258f19-cab0-4bd1-bdc2-3f5866921f9b" valueTypeId="81ceb5df-f6f4-4c60-bef8-72b8e6bb7003"/>
+  </producedTypes>
+  <name>ИсточникиПолученияИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники привлечения клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиПолученияИнформации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиПолученияИнформации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Источник привлечения клиента</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="22a60725-88f3-4f90-802c-ea69fc4d9c56">
+      <name>ДубльГис</name>
+      <description>Дубль гис</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="b07dfe07-7716-4f2d-ae1c-89df9276243c">
+      <name>НаружнаяРеклама</name>
+      <description>Наружная реклама</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="db8b6f58-7f32-466d-9821-61f90ca7f2c0">
+      <name>ПоискЯндекса</name>
+      <description>Поиск яндекса</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="3a9efea7-70b6-44ea-87ac-198cb1605961">
+      <name>РекламаВТелеграмме</name>
+      <description>Реклама в телеграмме</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="966972af-e449-432e-bc7e-7201254dbe38">
+      <name>РекламаПоТелефону</name>
+      <description>Реклама по телефону</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="bb45e3fe-d39b-4f6f-aff3-d95fa6260b41">
+      <name>УзналиОтЗнакомых</name>
+      <description>Узнали от знакомых</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

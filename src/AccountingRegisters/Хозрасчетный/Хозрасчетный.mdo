@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25343563-1aeb-4edd-807c-5d0186ff9323">
+  <producedTypes>
+    <selectionType typeId="b99f98e4-b3d5-4936-b16f-b9f7ff5d22dc" valueTypeId="1bfc5c89-8eac-427f-b8dc-0f884ebd1499"/>
+    <listType typeId="d3e12f76-7c79-4a95-82a5-d0e43a296bf9" valueTypeId="aa0ac3bf-4b92-4f1d-aa83-ebb8d66b7f48"/>
+    <managerType typeId="7d991752-907a-4240-a438-68f89eafadcb" valueTypeId="61836935-73f0-4172-b3bc-5bb08c5ebcee"/>
+    <recordSetType typeId="4a525930-5942-42c1-bc6c-0a6c97c69cf9" valueTypeId="db830d8b-8037-4c82-8446-abf83e39eda7"/>
+    <recordKeyType typeId="6543642b-e204-478f-be5f-25be648a7a22" valueTypeId="772c8e5f-8ee2-43db-aded-c2e7e2e7c663"/>
+    <recordType typeId="5a5c8f1d-b056-42f8-88b4-ae43479f27dc" valueTypeId="2b5ee175-d46a-4f1b-b3ef-0bff99744957"/>
+    <extDimensionsType typeId="7b8c6e8b-13ce-48d4-b5ec-af79dbc7a1b6" valueTypeId="8f9d3efb-bfe0-457b-a2cf-10d7305b4ef9"/>
+  </producedTypes>
+  <name>Хозрасчетный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал бухгалтерских проводок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Хозрасчетный</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал проводок</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Журнал бухгалтерский проводок</value>
+  </extendedListPresentation>
+  <resources uuid="48ead735-8d8b-40b3-b60d-f51c6cee3080">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <attributes uuid="6a309877-4cbf-4e73-a116-209aceaf33f0">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:AccountingRegister>

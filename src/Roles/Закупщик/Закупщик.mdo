@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c70a5ad9-b89b-4ce5-954a-7f73d8a151b2">
+  <name>Закупщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупщик</value>
+  </synonym>
+</mdclass:Role>

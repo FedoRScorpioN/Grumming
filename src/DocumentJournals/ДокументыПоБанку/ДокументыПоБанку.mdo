@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f9b8b4e-ba6c-43d5-92e9-f3f1e16e7b12">
+  <producedTypes>
+    <selectionType typeId="a7bb2e47-6ffb-4e7b-bd4b-9b5c6b8e098f" valueTypeId="b80f98ce-cc94-421c-952e-7705e7aec5a6"/>
+    <listType typeId="0751fc4d-3e0c-4394-b5b8-32521f95acd6" valueTypeId="525c996d-57da-41dc-b34a-fe87212f6b4c"/>
+    <managerType typeId="6e9297ad-83f6-4f6d-9a8b-49bda3b7cd2b" valueTypeId="a2016b65-ccd1-4246-a471-c0c3f4217283"/>
+  </producedTypes>
+  <name>ДокументыПоБанку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по банку</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДокументыПоБанку.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеНаРасчетныйСчет</registeredDocuments>
+  <registeredDocuments>Document.СписаниеСРасчетногоСчета</registeredDocuments>
+  <columns uuid="bc1228d1-24ac-49bc-8ead-733fa980ec14">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.ВидОперации</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="172a1008-5430-4eac-bd4d-bcd3caccbf1b">
+    <name>Приход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход</value>
+    </synonym>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="b1d7bfa9-7d79-4ea9-9a12-3af7e616194a">
+    <name>Расход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="7287f250-5b9b-4827-9ff5-4f3086c63259">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.Плательщик</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.Получатель</references>
+  </columns>
+  <columns uuid="99aaace9-74bd-42b2-a208-5d1765385ba0">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.РасчетныйСчет</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.РасчетныйСчет</references>
+  </columns>
+  <columns uuid="620af6b4-292e-48f7-8c03-aa01b0cea2e6">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.Комментарий</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="0a6c50a1-9f62-458d-8bb7-b13cd252077d">
+    <name>АвторДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор документа</value>
+    </synonym>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.АвторДокумента</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.АвторДокумента</references>
+  </columns>
+  <forms uuid="2b00e58b-6a2e-4554-becf-083c1d757640">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

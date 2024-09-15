@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9905b50b-ba27-4498-a219-7f3221cfa4c1">
+  <producedTypes>
+    <selectionType typeId="89ce622b-7232-4ba2-9444-f8f7c5093561" valueTypeId="9ab201fd-cbdd-4b08-b3f6-98937ff7de89"/>
+    <listType typeId="99027a95-f15e-4c1e-8d5a-d06742effd94" valueTypeId="b21ba3e9-a332-471f-9229-32bcf609d99f"/>
+    <managerType typeId="375774e2-46b5-4c35-8588-f998222e029c" valueTypeId="c592f60c-c38a-4a7b-af65-fecd5375fe94"/>
+  </producedTypes>
+  <name>ЖурналХозяйственныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал хозяйственных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровИМатериалов</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеУслуг</registeredDocuments>
+  <registeredDocuments>Document.ПоступленияДенежныхСредств</registeredDocuments>
+  <registeredDocuments>Document.РасходДенежныхСредств</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеНаРасчетныйСчет</registeredDocuments>
+  <registeredDocuments>Document.СписаниеСРасчетногоСчета</registeredDocuments>
+  <columns uuid="cca1df21-dcfb-470d-825f-68d385cc775f">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <references>Document.ПоступленияДенежныхСредств.Attribute.ВидОперации</references>
+    <references>Document.РасходДенежныхСредств.Attribute.ВидОперации</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.ВидОперации</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="9b5f0787-07d0-4330-a31f-58ee402d7128">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Клиент</references>
+    <references>Document.ПоступлениеТоваровИМатериалов.Attribute.Поставщик</references>
+    <references>Document.ПоступлениеУслуг.Attribute.Поставщик</references>
+    <references>Document.ПоступленияДенежныхСредств.Attribute.Плательщик</references>
+    <references>Document.РасходДенежныхСредств.Attribute.Получатель</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.Плательщик</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.Получатель</references>
+  </columns>
+  <columns uuid="c9bbccd8-377e-49fc-8b47-f911485684ad">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.ПоступлениеТоваровИМатериалов.Attribute.СуммаДокумента</references>
+    <references>Document.ПоступлениеУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.ПоступленияДенежныхСредств.Attribute.СуммаДокумента</references>
+    <references>Document.РасходДенежныхСредств.Attribute.СуммаДокумента</references>
+    <references>Document.ПоступлениеНаРасчетныйСчет.Attribute.СуммаДокумента</references>
+    <references>Document.СписаниеСРасчетногоСчета.Attribute.СуммаДокумента</references>
+  </columns>
+</mdclass:DocumentJournal>

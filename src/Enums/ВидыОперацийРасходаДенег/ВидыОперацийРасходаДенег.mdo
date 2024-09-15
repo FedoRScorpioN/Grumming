@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="228c4d9a-e41f-4e15-aa51-8c4a3e7f7025">
+  <producedTypes>
+    <refType typeId="fabda07b-80b6-4892-a06a-9c5f4753c4ee" valueTypeId="665e3661-369b-400c-b8c4-2580294e8a9f"/>
+    <listType typeId="559b295e-5124-4ba2-a161-3555dff68b5d" valueTypeId="a2161525-5c82-46f1-b584-41dabbfce6a9"/>
+    <managerType typeId="1fe49aea-e469-4d9c-9356-3bc9b88e1841" valueTypeId="8c67365a-0407-44b7-b434-a137d878a766"/>
+  </producedTypes>
+  <name>ВидыОперацийРасходаДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций расхода денег</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ab1bb427-a8f7-4a34-83f1-43e275d7b811">
+    <name>ВзносНаличнымиВБанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взнос наличными в банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48353f3b-0188-4f97-b1ee-b297329f5117">
+    <name>ОплатаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91787a1b-1e26-4b57-b66e-ce18a4f6573c">
+    <name>ВозвратДенегПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат денег покупателю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec03d15f-65a3-49e7-ab92-2bb74870b60a">
+    <name>ПрочийРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочий расход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8dddfed1-ae82-433f-8da2-53c5fbea16c9">
+    <name>ВыдачаДенегПодотчетнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача денег подотчетнику</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

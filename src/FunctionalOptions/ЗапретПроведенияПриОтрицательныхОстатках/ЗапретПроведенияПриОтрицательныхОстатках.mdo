@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="056dc55f-fa2f-4e0d-886a-fd26000a6b84">
+  <name>ЗапретПроведенияПриОтрицательныхОстатках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет проведения при отрицательных остатках</value>
+  </synonym>
+  <location>Constant.ЗапретПроведенияПриОтрицательныхОстатках</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

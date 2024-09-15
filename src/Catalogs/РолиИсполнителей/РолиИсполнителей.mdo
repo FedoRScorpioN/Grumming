@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="994a8493-e99c-453b-b6dd-d1272d8f88ba">
+  <producedTypes>
+    <objectType typeId="498e8d7f-6e8b-4f50-a7d2-d22cd880664b" valueTypeId="0606257d-c3d3-4228-a5be-0f381f30e8d4"/>
+    <refType typeId="30c2edd7-c50d-4e5a-9e9d-fa01565cff0e" valueTypeId="2d9084d9-dcfc-4300-a720-95064e7931cc"/>
+    <selectionType typeId="169bc838-9443-4d1c-828a-88bc46e32af4" valueTypeId="d2c0ba81-d040-47f2-88c1-6caba5f3d28b"/>
+    <listType typeId="09c286f3-cf89-4986-a9d1-c76fbb811f39" valueTypeId="7b7c024d-7ea4-48ac-84eb-0eaf94221d41"/>
+    <managerType typeId="4170fa5d-e75a-48b5-bc8a-62c2b74e37bf" valueTypeId="ba6e2e05-7cbc-4d7d-8d80-dd00ae2ccd54"/>
+  </producedTypes>
+  <name>РолиИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли исполнителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РолиИсполнителей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РолиИсполнителей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="db2908d5-272a-4e0e-bc6c-73c17f2a3ec0">
+      <name>Администратор</name>
+      <description>Администратор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

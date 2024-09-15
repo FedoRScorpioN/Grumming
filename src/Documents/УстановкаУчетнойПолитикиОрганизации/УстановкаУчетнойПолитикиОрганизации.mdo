@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="049e9828-53be-4125-b55e-d89f817a7715">
+  <producedTypes>
+    <objectType typeId="759239f8-27eb-4c1f-a07e-6743fa245203" valueTypeId="93ed7977-721a-4dd4-8537-c1b55f93ae46"/>
+    <refType typeId="f9acb12a-6576-43f9-a0c4-240a3c04721e" valueTypeId="8d08f1e2-9124-48b2-9c9f-34d4c9de19ba"/>
+    <selectionType typeId="1883727c-9d73-4cbf-99c0-82ec835d17fd" valueTypeId="1ecccace-9a41-4b1e-b25c-4f174e8ce5d9"/>
+    <listType typeId="8101f971-ebc5-421f-8831-37e023856a93" valueTypeId="b0bd4055-7115-4f42-ae60-5ca429ba82ef"/>
+    <managerType typeId="b2f1c9c3-8719-497b-a2e9-0c8b0585aff0" valueTypeId="f2ce1a9b-8a34-41aa-8cde-026bcf56e76d"/>
+  </producedTypes>
+  <name>УстановкаУчетнойПолитикиОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка учетной политики организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаУчетнойПолитикиОрганизации.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.УчетнаяПолитика</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="03a3afc0-ae42-475e-820a-0fff8d2d585f">
+    <name>УчетнаяПолитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная политика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыУчетнойПолитики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
